@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".Activities.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFFFF"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="165dp"
+        app:srcCompat="@drawable/back" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="606dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/template"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Personal Info"
+            android:textColor="#FF000000"
+            android:fontFamily="@font/poppins_bold"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FF000000"
+            android:text="FIRST NAME" />
+
+        <EditText
+            android:id="@+id/EditTextFirstName"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Pet Lane"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF000000"
+            android:text="LAST NAME" />
+
+        <EditText
+            android:id="@+id/EditTextLastName"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Pet Care Store"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF000000"
+            android:text="EMAIL" />
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Pet Care Store"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF000000"
+            android:text="ADDRESS" />
+
+        <EditText
+            android:id="@+id/EditTextAddress"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Pet Care Store"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF000000"
+            android:text="CONTACT NO." />
+
+        <EditText
+            android:id="@+id/EditTextContactNo"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="Pet Care Store"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/notsoround_button"
+            android:text="CREATE"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</LinearLayout>
