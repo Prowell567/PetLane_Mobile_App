@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
         android:allowBackup="true"
@@ -13,22 +15,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SemiFinal"
         tools:targetApi="31">
-        <activity
-            android:name=".Activities.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity android:name="MainActivity" android:exported="false">
+        </activity>
+
+        <activity android:name="HomePageActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.CartActivity"></activity>
-        <activity android:name=".Activities.HomePageActivity"></activity>
-        <activity android:name=".Activities.OrdersActivity"></activity>
-        <activity android:name=".Activities.ProfileActivity"></activity>
+
     </application>
 
 </manifest>

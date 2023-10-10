@@ -210,6 +210,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="90dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/notsoround_button"
                 android:text="CREATE"
                 android:textColor="@color/white"

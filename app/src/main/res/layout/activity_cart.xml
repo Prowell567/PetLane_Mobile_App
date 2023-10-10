@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/pink"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    tools:context=".Activities.CartActivity">
 
 
 
@@ -235,7 +236,8 @@
                 android:text="Cash on Delivery/Maxim"
                 android:textSize="14dp"
                 tools:layout_editor_absoluteX="34dp"
-                tools:layout_editor_absoluteY="28dp" />
+                tools:layout_editor_absoluteY="28dp"
+                tools:ignore="MissingConstraints" />
 
             <View
                 android:id="@+id/view4"

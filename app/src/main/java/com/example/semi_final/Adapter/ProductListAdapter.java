@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners;
-import com.example.semi_final.Activities.DetailActivity;
+//import com.example.semi_final.Activities.DetailActivity;
 import com.example.semi_final.Domain.ProductDomain;
 import com.example.semi_final.R;
 
@@ -74,5 +74,6 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
     }
 
 
-
+    private class DetailActivity {
+    }
 }
